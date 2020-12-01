@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+
+</head>
+<body>
+
+    <section class="game">
+        <div class="top">
+            <div class="player-score">
+                <h1>0</h1>
+                <h2>Mega-Man</h2>
+                <img src="assets/megaman.png" alt="">
+                <p></p>
+            </div>
+            <div class="computer-score">
+                <h1>0</h1>
+                <h2>Dr. Wily</h2>
+                <img src="assets/Dr. Wily.png" alt="">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <div class="title">
+                <img src="assets/ROCK-PAPER-SCISSORS (1).png" alt="">
+            </div>
+            <button>READY TO BATTLE!?</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Let the battle begin!</h2>
+            <div class="hands">
+                <img class="player-hand" src="assets/rock.png" alt="">
+                <img class="computer-hand" src="assets/rock.png" alt="">
+            </div>
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+            </div>
+        </div>
+        
+        <div class="end fadeOut">
+            <h2></h2>
+            <button class="playAgain">PLAY AGAIN!</button>
+        </div>
+
+        <div class="soundOptions">
+            <h1>MUSIC</h1>
+            <button class="unmute">.>>>ON<<<.</button>
+            <button class="mute">.>>>OFF<<<.</button>
+            
+            
+        </div>
+
+        <audio class="gameMusic" src="assets/03_Ice Man.mp3"></audio>
+        <audio class="endMusic" src="assets/14 Dr. Wily Defeated!.mp3"></audio>
+
+    </section>
+</body>
+</html>
